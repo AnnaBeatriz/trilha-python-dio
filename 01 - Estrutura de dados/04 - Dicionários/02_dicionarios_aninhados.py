@@ -1,3 +1,4 @@
+# A Chave do valor precisa ser imutavel e o valor pode ser tanto imutavel quando mutavel
 contatos = {
     "guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"},
     "giovanna@gmail.com": {"nome": "Giovanna", "telefone": "3443-2121"},
@@ -7,3 +8,6 @@ contatos = {
 
 telefone = contatos["giovanna@gmail.com"]["telefone"]  # "3443-2121"
 print(telefone)
+
+nome = contatos["melaine@gmail.com"]["nome"]
+print(nome)

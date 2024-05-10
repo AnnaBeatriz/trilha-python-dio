@@ -5,5 +5,6 @@ contatos = {
     "melaine@gmail.com": {"nome": "Melaine", "telefone": "3333-7766"},
 }
 
+# Apaga todos os valores do dicionario
 contatos.clear()
 print(contatos)  # {}
